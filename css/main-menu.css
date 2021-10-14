@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+     background-color: teal;
+     font-family: 'Roboto', sans-serif;
+}
+ul {
+    list-style: none;
+    text-align: center;
+    font-size: 1.2em;
+}
+li {
+    display: inline-block;
+    padding: 15px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.content-main {
+    margin: 3em;
+}
+   

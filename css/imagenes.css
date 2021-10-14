@@ -1,0 +1,25 @@
+body {
+    margin: 0 14em;
+}
+h1 {
+    text-align: center;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+.img-catalogo {
+    display: inline;
+    margin-bottom: -1em;
+}
+p {
+    font-size: 1.8em;
+    text-align: center;
+    
+}
+div {
+    display: inline-block;
+    margin: 20px;
+    height: 270;
+    width: 360px;
+}
