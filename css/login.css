@@ -1,0 +1,36 @@
+#login-box {
+    border: 1px solid rgb(0, 0, 0);
+    width: 15%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15%;
+    background: rgb(204,255,204);
+    padding: 20px 20px;
+}
+#login-box .form .item input {
+    width: 200px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    font-size: 18px; 
+    background: #00000000; 
+    color: rgb(255, 255, 255); 
+    padding: 5px 10px; 
+}
+#login-box .form .item i {
+    color: rgb(29, 29, 29);
+    font-size: 18px;
+}
+#login-box button {
+    border: 0; 
+    width: 100px;
+    height: 30px;
+    margin-top: 18px; 
+    font-size: 18px; 
+    color: rgb(202,255,204); 
+    border-radius: 25px;
+    background-image: linear-gradient(to right, #6b6e6e 0%, #000000);
+}
+body {
+    background: url("../img/night-2193483_960_720.jpg") center;
+    background-size: 100% auto; 
+    background-repeat: no-repeat; 
+}
