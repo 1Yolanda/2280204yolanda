@@ -3,49 +3,47 @@
     padding: 0;
 }
 h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(106,104,107);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0);
 }
 .menu {
     height: 100vh;
     position: fixed;
 }
 .content_form {
-    background-color: rgb(192,192,192);
-    margin-left: 24%;
-    /* height: 100%; */
-    padding: 20px  30px;
+    background-color: rgb(147, 149, 149);
+    margin-left: 25%;
+    padding: 70px  30px;
 }
 ul {
-    padding: 25px;
+    padding: 30px;
     list-style: none;
     font-size: 1em;
     display: block;
     text-decoration: none;
 }
 li {
-     padding: 30px 10px 0 30px;
-     text-align: left;
-     text-decoration: none;
+    padding: 30px 10px 0 30px;
+    text-align: left;
+    text-decoration: none;
 }
 nav{
-    background: rgb(48,48,48);
+    background: rgb(0, 0, 0);
     height: 100%;
     width: 25%;
-
 }
 a {
-    text-decoration: none;
     color: rgb(255, 255, 255);
     font-weight: 500;
     font-size: 1.2em;
+    text-decoration: none;
 }
 a:hover {
-    color: rgb(0,2,251);
+    color: rgb(10, 111, 243);
 }
 label {
     height: 30px;
-    color: #000;
+    color: rgb(63, 58, 58);
 }
 input {
     height: 40px;
@@ -56,15 +54,14 @@ input {
 @media (max-width: 600px){
     nav{
         padding-top: 30px;
-        background: rgb(2, 1, 1);
+        background: rgb(42, 41, 41);
         height: 100%;
         width: 40%;
     } 
     .content_form {
-        background-color: rgb(12, 224, 224);
-        margin-left: 30%;
-        /* height: 100%; */
-        padding: 10px  20px;
+        background-color: rgb(251, 44, 29);
+        margin-left: 40%;
+        padding: 20px  30px;
     } 
     li {
         padding: 30px 10px 0 30px;
@@ -87,9 +84,8 @@ input {
         width: 35%;
     } 
     .content_form {
-        background-color: rgb(12, 224, 224);
+        background-color: rgb(147,149,149);
         margin-left: 35%;
-        /* height: 100%; */
         padding: 20px  30px;
     } 
     li {
