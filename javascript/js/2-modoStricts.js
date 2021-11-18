@@ -2,11 +2,11 @@
 
 /*modo correcto*/
 
-var nombreAprendiz ="Kevin Buri";
-console.log(nombreAprensiz1);
+var nombreAprendiz1 = "Raul Santi";
+console.log(nombreAprendiz1);
 
 
 /* use strict evita utilizar variables sin definir*/
 
-nombreAprendiz2 = "Raul Santi";
+nombreAprendiz2 = "Joan Sebastian";
 console.log(nombreAprendiz2);
