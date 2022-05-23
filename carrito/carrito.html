@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/carrito.css">
+    <link rel="stylesheet" href="icons/all.css">
+</head>
+<body>
+    <div class="contenedor-principal">
+        <div class="subtotal">
+            <label>Subtotal </label><label class="tipoMoneda">cop</label><label class ="style-subtotal" id="valorSubtotal"></label>
+        </div>
+        <div class="info-productos">
+            <p>Proceder al pago (<label id="numeroProductos"><label id="info-cantidad"></label><label></label></label>)</p>
+        </div>
+        <div class="libro">
+            <img src="img/javass.jpg" alt="Libro Amazon">
+        </div>
+        <div class="info-libro">
+            <label>Javascript The Definitive Guide</label><br>
+            <label>Master the World's Most-Used Programing Language</label><br><br>
+            <label>por David Flanagan</label><br><br>
+            <label><strong>Tapa blanda</strong></label><br><br>
+            <label class="tipoMoneda">cop</label><label class="valorUnitario" id="valor-unitario"></label>
+        </div>
+        <div class="contenedor contenedor-1" onclick="restarProducto()">
+            <label class="icono"><i class="fas fa-minus"></i></label>
+        </div>
+        <div class="contenedor-2">
+            <label id="cantidadProductos">1</label>
+        </div>
+        <div class="contenedor contenedor-3" onclick="cargarProducto()">
+            <label class="icono"><i class="fas fa-plus"></i></label>
+        </div>
+        <div class="guardarMasTarde">
+            <label class="texto-guardarMasTarde">Guardar para mas tarde</label>
+        </div>
+        <div class="btn-eliminar">
+            <label class="texto-eliminar">Eliminar</label>
+        </div>
+        
+    </div>
+    <script src="js/carrito.js"></script>
+</body>
+</html>

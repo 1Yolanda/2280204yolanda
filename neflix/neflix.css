@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(2, 18, 71);
+}
+.img-cinta {
+    width: 160px;
+    height: 230px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+.box-img-principal {
+    display: block;
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+.img-principal {
+    width: 990px;
+}
+.movie-cinta {
+    margin-top: 25px;
+}
