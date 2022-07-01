@@ -1,0 +1,33 @@
+h3 {
+    text-align: center;
+    color: rgb(132, 141, 141);
+    font-family: 'Times New Roman', Times, serif;
+}
+fieldset {
+    width: 21%;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(194, 201, 200);
+    border-radius: 8px;
+    border: 3px solid rgb(5, 91, 94);
+    color: black;
+    font-size: 1.3em;
+    line-height: 1.8em;
+}
+input {
+    font-size: 1em;
+    line-height: 1em;
+    margin: 0 auto;
+    
+}
+.formulario {
+   width: 90%;
+   margin: 0 auto;
+   
+}
+.btn {
+    background-color: rgb(255, 255, 255);
+    color: rgb(42, 44, 44);
+    border: 3px solid rgb(1, 94, 94);
+}
